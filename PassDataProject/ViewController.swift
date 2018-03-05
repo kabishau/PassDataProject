@@ -6,7 +6,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordTextField: UITextField!
     
     @IBAction func sendPressed(_ sender: UIButton) {
-        
+        performSegue(withIdentifier: "DetailSegue", sender: nil)
     }
     
     // passing data to second view controller

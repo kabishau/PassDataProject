@@ -62,7 +62,6 @@
                                 </state>
                                 <connections>
                                     <action selector="sendPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HgI-1z-r0S"/>
-                                    <segue destination="T0K-12-Xb2" kind="show" id="Pa1-Ab-vMh"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -82,6 +81,7 @@
                     <connections>
                         <outlet property="loginTextField" destination="Fnx-ce-9kR" id="hxs-Td-DFe"/>
                         <outlet property="passwordTextField" destination="bOV-za-lTx" id="j8N-e7-mcg"/>
+                        <segue destination="T0K-12-Xb2" kind="show" identifier="DetailSegue" id="vpd-c1-6hH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
