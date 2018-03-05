@@ -12,6 +12,7 @@
 		D408ECC6204CE52900384F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D408ECC4204CE52900384F5B /* Main.storyboard */; };
 		D408ECC8204CE52900384F5B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D408ECC7204CE52900384F5B /* Assets.xcassets */; };
 		D408ECCB204CE52900384F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D408ECC9204CE52900384F5B /* LaunchScreen.storyboard */; };
+		D408ECD3204CEC2700384F5B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D408ECD2204CEC2700384F5B /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		D408ECC7204CE52900384F5B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D408ECCA204CE52900384F5B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D408ECCC204CE52900384F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D408ECD2204CEC2700384F5B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				D408ECC0204CE52900384F5B /* AppDelegate.swift */,
 				D408ECC2204CE52900384F5B /* ViewController.swift */,
+				D408ECD2204CEC2700384F5B /* SecondViewController.swift */,
 				D408ECC4204CE52900384F5B /* Main.storyboard */,
 				D408ECC7204CE52900384F5B /* Assets.xcassets */,
 				D408ECC9204CE52900384F5B /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D408ECD3204CEC2700384F5B /* SecondViewController.swift in Sources */,
 				D408ECC3204CE52900384F5B /* ViewController.swift in Sources */,
 				D408ECC1204CE52900384F5B /* AppDelegate.swift in Sources */,
 			);
